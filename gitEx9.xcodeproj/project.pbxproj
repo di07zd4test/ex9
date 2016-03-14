@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		74A11CFE1C9714DF0068571C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A11CFD1C9714DF0068571C /* main.m */; };
+		74A11D051C9715140068571C /* businessLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A11D041C9715140068571C /* businessLogic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		74A11CFA1C9714DF0068571C /* gitEx9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitEx9; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A11CFD1C9714DF0068571C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74A11D041C9715140068571C /* businessLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = businessLogic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				74A11CFD1C9714DF0068571C /* main.m */,
+				74A11D041C9715140068571C /* businessLogic.m */,
 			);
 			path = gitEx9;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A11D051C9715140068571C /* businessLogic.m in Sources */,
 				74A11CFE1C9714DF0068571C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
